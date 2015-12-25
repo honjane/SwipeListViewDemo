@@ -12,3 +12,5 @@
 
 其他用法和一般ListView一样 
 
+![正常显示](https://github.com/honjane/SwipeListViewDemo/blob/master/nomal.png)
+![侧滑效果](https://github.com/honjane/SwipeListViewDemo/blob/master/slide.png)
