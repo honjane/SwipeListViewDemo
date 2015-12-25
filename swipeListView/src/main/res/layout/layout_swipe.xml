@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" >
+
+    <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/layout_holder"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/red"
+                android:textColor="@color/white"/>
+        <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/tv_left"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</merge>
