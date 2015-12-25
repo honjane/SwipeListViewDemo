@@ -11,9 +11,10 @@
 3.1 adapter中需要注意的是实现swipeView.setOnSlideListener事件，这个回调处理旧的itemView关闭问题
 
 其他用法和一般ListView一样 
-正常显示：
-![](https://github.com/honjane/SwipeListViewDemo/blob/master/nomal.png)
 
 
-侧滑效果：
-![](https://github.com/honjane/SwipeListViewDemo/blob/master/slide.png)
+![正常显示](https://github.com/honjane/SwipeListViewDemo/blob/master/nomal.png)
+
+
+
+![侧滑效果](https://github.com/honjane/SwipeListViewDemo/blob/master/slide.png)
